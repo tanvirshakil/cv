@@ -1,0 +1,129 @@
+body{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h2:hover{
+  color:#f4f4f4;
+}
+h4{
+  padding-top:2rem;
+}
+a{
+  text-decoration: none;
+  color:#f4f4f4;
+}
+a:hover{
+  text-decoration: none;
+  color:#4d4646;
+}
+#top{
+  background-color: #4d4646;
+}
+
+
+.top-container{
+
+  width: 80%;
+  margin: auto;
+
+}
+
+
+.navbar{
+  background-color: #4d4646;
+}
+
+.navbar-dark{
+  color: #f5eaea;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: 2rem;
+}
+.title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.profile-pic{
+  width: 300px;
+  border-radius: 100%;
+
+}
+.intro{
+  color: #f5eaea;
+  font-family: 'Bad Script', cursive;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+
+
+
+/* skills */
+
+
+#skills{
+  background-color: #5b5656;
+  padding:10% 5%;
+  color: #f5eaea;
+}
+
+.skill-body{
+  width:70%;
+  margin: 3rem auto;
+}
+.skill-body:hover{
+  width:75%;
+}
+.skill-image{
+  width: 200px;
+  display: inline-block;
+}
+
+.description{
+  width: 50%;
+  display: inline-block;
+  padding: 2rem 0;
+}
+.description:hover{
+  color:#f4f4f4;
+}
+
+
+/* contact me */
+
+#contact-me{
+  background-color: #d2c6b2;
+  padding: 3rem 0;
+}
+.contact-me-body{
+width:50%;
+margin: 0 auto;
+padding: 5rem 0;
+}
+.plane{
+  width: 100px;
+}
+#footer{
+  background-color: #363636;
+  color:#f5eaea;
+}
+.footer-body{
+  padding: 5rem 0;
+}
+.links{
+  display: inline-block;
+}
+.links:hover{
+  color:#363636;
+}
+.footer-link{
+  padding: 0 3rem;
+}
+
+@media (max-width:680px) {
+  .skill-body{
+    width: 100%;
+  }
+}
